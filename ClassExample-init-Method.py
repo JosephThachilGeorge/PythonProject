@@ -9,11 +9,13 @@ class Employee:
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
 
-emp_1 = Employee('Corey', 'Schafer', 50000)
+emp_1 = Employee('Joseph', 'thachil', 50000)
 emp_2 = Employee('Test', 'Employee', 60000)
 
 print(emp_1.first, emp_1.last)
 print(emp_1.email)
 print(emp_2.email)
+print(emp_1.pay)
+print(emp_2.pay)
 print(emp_1.fullname())
 print(emp_2.fullname())
